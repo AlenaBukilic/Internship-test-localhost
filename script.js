@@ -53,7 +53,7 @@ function displayUsers() {
 		firendsOfFriends.innerText = 'Firends Of Friends:';
 		suggestedFriends.innerText = 'Suggested Friends:';
 
-		// for each user displey list of friends and friends of friends
+		// for each user display list of friends and friends of friends
 		for(j = 0; j < element['friends'].length; j++){
 			const directFriend = document.createElement('p');
 			directFriend.classList.add('friendNames');
