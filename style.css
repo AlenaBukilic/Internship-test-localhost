@@ -1,0 +1,81 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+section {
+	margin: 5% auto;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.name {
+	text-align: center;
+    width: 30%;
+    height: 10%;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 4px 1px #a9c0ce;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: ease 0.3s all;
+    font-size: 15px;
+	font-weight: bold;
+	color: #242424;
+	background-color: whitesmoke;
+	
+}
+.name:hover {
+	transform: scale(0.9);
+	background-color: #71e2dc94;
+	color: #242424;
+	box-shadow: 0px 5px 4px 1px #ccc;
+}
+
+.dataMain {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.dataChildren {
+	font-size: 15px;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+.friendNames {
+	font-size: 12px;
+}
+
+.big {
+	text-align: center;
+    width: 90%;
+    /*min-height: 40%;*/
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 4px 1px #a9c0ce;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    transition: ease 0.3s all;
+    font-size: 22px;
+	font-weight: bold;
+	color: #242424;
+	background-color: #71e2dc94;
+}
+
+.info {
+	font-size: 12px;
+}
+
+.hidden {
+	display: none;
+}
+
